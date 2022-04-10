@@ -44,7 +44,7 @@ function createReply(id,text){
     let reply = document.createElement('div');
     reply.setAttribute('id', `${id.id}R${replyNum}`);
     let p = document.createElement('p')
-    p.setAttribute('class','post');
+    p.setAttribute('class','rPost');
     p.innerHTML = text
     // p.style.backgroundColor = getRandomColor();
     let replyBtn = document.createElement('button');

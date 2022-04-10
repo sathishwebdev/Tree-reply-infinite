@@ -7,10 +7,22 @@
 .post{
     padding:8px;
     padding-inline-start: 20px ;
-    background-color: rgb(185, 184, 185);
+    background-color: lightgray;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 1%;
+    border-radius: 50px;
+}
+.rPost{
+    padding:8px;
+    padding-inline-start: 20px ;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    border-radius: 50px;
 }
 
 .input{
@@ -43,6 +55,6 @@
     padding-inline-end: 15px;
     border: none;
     border-radius: 15px;
-    background-color: rgb(184, 253, 242);
+    background-color: lightpink;
     cursor: pointer;
 }
