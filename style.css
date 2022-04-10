@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post{
+    padding:8px;
+    padding-inline-start: 20px ;
+    background-color: rgb(185, 184, 185);
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.input{
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input:focus{
+    outline: none;
+}
+.reply{
+    padding-inline-start: 20px;
+}
+
+.btn{
+    padding: 8px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(181, 226, 252)
+}
+
+.rBtn{
+    padding: 8px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(184, 253, 242)
+}

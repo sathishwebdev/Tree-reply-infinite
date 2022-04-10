@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reply Tree | Example</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body> 
+    <div class="container">
+        <input class="input" style="width:80%" autocomplete="off" autofocus type="text" placeholder="Share Your Thoughts Here..." id="post" name="post" />
+        <button type="submit" class="btn" onClick="Post()" >Post</button>
+      <div id="root">
+          <!-- example post -->
+        <div id="p1" >
+            <p class="post">Hello Everyone
+            <button type="submit" class="rBtn" disabled  onClick="Reply(rP1)">Reply</button></p>
+            <!-- reply container of this post -->
+            <div class="reply" id="rP1" >
+            </div>  
+        </div>
+      </div>
+        <input class="input" autocomplete="off" autofocus type="text" placeholder="Reply Something Here..." id="reply" name="reply"  />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
